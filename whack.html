@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Whack-a-mole</title>
+  <script src="scripts.js"></script>
+
+  <style>
+      .grid-container {
+        display: grid;
+        float: left;
+        position: relative;
+        grid-template-columns: 80px 80px 80px 80px;
+      }
+
+      .grid-item {
+        border: 1px solid; 
+        padding: 20px;
+        padding-top: 50px;
+      }
+
+      .box1 {
+        width: 480px;
+        float: left;
+      }
+
+      #statusbox {
+        position: relative;
+        float: left;
+        margin-left: 40px;
+        margin-top: 40px;
+      }
+
+      #score {
+        margin-top: 40px;
+      }
+
+      #start {
+        margin-top: 40px;
+      }
+  </style>
+
+</head>
+
+<body>
+    
+    <div class="box1">
+      <div class="grid-container">
+          <div class="grid-item" id="g1"></div>
+          <div class="grid-item" id="g2"></div>
+          <div class="grid-item" id="g3"></div>
+          <div class="grid-item" id="g4"></div>
+          <div class="grid-item" id="g5"></div>
+          <div class="grid-item" id="g6"></div>
+          <div class="grid-item" id="g7"></div>
+          <div class="grid-item" id="g8"></div>
+          <div class="grid-item" id="g9"></div>
+          <div class="grid-item" id="g10"></div>
+          <div class="grid-item" id="g11"></div>
+          <div class="grid-item" id="g12"></div>
+          <div class="grid-item" id="g13"></div>
+          <div class="grid-item" id="g14"></div>
+          <div class="grid-item" id="g15"></div>
+          <div class="grid-item" id="g0"></div>
+      </div>
+
+      <div id="statusbox">
+        <div id="lives">Lives: 10</div>
+        <div id="score">Score: 0</div>
+        <button type="button" id="start">Start</div>
+      </div>
+
+    </div>
+
+</body>
+
+</html>
